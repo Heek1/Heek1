@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Vlad — Full-stack developer, backend focus">
+  <title>Vlad — Full-stack developer, backend focus</title>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1e293b"/>
+    </pattern>
+    <radialGradient id="glowBlue" cx="0.78" cy="0.15" r="0.55">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="0.95" cy="0.95" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0b1220" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#0b1220" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#0b1220" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1280" height="360" rx="20"/></clipPath>
+    <style>
+      .sans { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .kw { fill: #c084fc; } .id { fill: #e2e8f0; } .key { fill: #7dd3fc; }
+      .str { fill: #86efac; } .pun { fill: #94a3b8; } .ln { fill: #334155; }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .rise { animation: rise 0.9s ease-out both; }
+      .rise2 { animation: rise 0.9s 0.15s ease-out both; }
+      .rise3 { animation: rise 0.9s 0.3s ease-out both; }
+      @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="360" fill="#0b1220"/>
+    <rect width="1280" height="360" fill="url(#dots)"/>
+    <rect width="1280" height="360" fill="url(#glowBlue)"/>
+    <rect width="1280" height="360" fill="url(#glowViolet)"/>
+    <rect width="760" height="360" fill="url(#fade)"/>
+    <rect x="0" y="356" width="1280" height="4" fill="url(#accent)" opacity="0.9"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="20" fill="none" stroke="#1e293b"/>
+
+  <!-- Left: identity -->
+  <g class="rise">
+    <rect x="72" y="92" width="36" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="122" y="99" class="mono" font-size="15" letter-spacing="3" fill="#60a5fa">FULL-STACK DEVELOPER · BACKEND FOCUS</text>
+  </g>
+  <text x="68" y="196" class="sans rise2" font-size="92" font-weight="700" letter-spacing="-2" fill="#f1f5f9">Vlad</text>
+  <g class="rise3">
+    <text x="72" y="246" class="sans" font-size="23" fill="#94a3b8">Backend systems with AI built in, not bolted on.</text>
+    <text x="72" y="292" class="mono" font-size="14.5" letter-spacing="0.5" fill="#64748b">ASP.NET Core  ·  Node.js  ·  React  ·  Angular  ·  PostgreSQL  ·  Docker</text>
+  </g>
+
+  <!-- Right: code card -->
+  <g transform="translate(772 58)">
+    <rect width="440" height="244" rx="14" fill="#0f172a" fill-opacity="0.92" stroke="#1e293b"/>
+    <rect width="440" height="40" rx="14" fill="#111c33"/>
+    <rect y="26" width="440" height="14" fill="#111c33"/>
+    <line x1="0" y1="40" x2="440" y2="40" stroke="#1e293b"/>
+    <circle cx="22" cy="20" r="5.5" fill="#f87171" fill-opacity="0.85"/>
+    <circle cx="40" cy="20" r="5.5" fill="#fbbf24" fill-opacity="0.85"/>
+    <circle cx="58" cy="20" r="5.5" fill="#34d399" fill-opacity="0.85"/>
+    <text x="220" y="25" text-anchor="middle" class="mono" font-size="13" fill="#64748b">vlad.ts</text>
+
+    <g class="mono" font-size="15">
+      <text x="22" y="80"><tspan class="ln">1</tspan><tspan x="50" class="kw">const</tspan><tspan class="id"> vlad </tspan><tspan class="pun">= {</tspan></text>
+      <text x="22" y="108"><tspan class="ln">2</tspan><tspan x="50" class="key">  focus</tspan><tspan class="pun">: </tspan><tspan class="str">"backend"</tspan><tspan class="pun">,</tspan></text>
+      <text x="22" y="136"><tspan class="ln">3</tspan><tspan x="50" class="key">  stack</tspan><tspan class="pun">: [</tspan><tspan class="str">".NET"</tspan><tspan class="pun">, </tspan><tspan class="str">"Node.js"</tspan><tspan class="pun">],</tspan></text>
+      <text x="22" y="164"><tspan class="ln">4</tspan><tspan x="50" class="key">  ui</tspan><tspan class="pun">:    [</tspan><tspan class="str">"React"</tspan><tspan class="pun">, </tspan><tspan class="str">"Angular"</tspan><tspan class="pun">],</tspan></text>
+      <text x="22" y="192"><tspan class="ln">5</tspan><tspan x="50" class="key">  now</tspan><tspan class="pun">:   </tspan><tspan class="str">"AI in real systems"</tspan><tspan class="pun">,</tspan></text>
+      <text x="22" y="220"><tspan class="ln">6</tspan><tspan x="50" class="pun">};</tspan></text>
+    </g>
+    <rect class="cursor" x="72" y="206" width="9" height="18" rx="1" fill="#60a5fa"/>
+  </g>
+</svg>
