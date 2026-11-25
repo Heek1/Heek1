@@ -10,6 +10,14 @@
 
 <br/>
 
+## See it live
+
+<a href="https://heek1.github.io/">
+  <img src="https://heek1.github.io/opengraph-image.png" width="100%" alt="heek1.github.io: I build backends that put AI to work, next to a pair of dot-matrix eyes" />
+</a>
+
+My portfolio at **[heek1.github.io](https://heek1.github.io/)** is the fastest way to see what I do: a live map of my stack, eyes that follow your cursor, the projects below with "how it works" views, and a console where you can call me as an API.
+
 ## About
 
 Full-stack developer with a backend focus. I design APIs, data models and services on **ASP.NET Core** and **Node.js**, build the interfaces on **React** and **Angular**, and ship them in containers. Lately my work is about bringing **LLMs into real backend systems** — with the checks, tests and observability that make them trustworthy.
@@ -21,7 +29,7 @@ I've led several team projects. The rule I keep in all of them: build exactly wh
     <td width="150"><b>Education</b></td>
     <td>
 
-Artificial Intelligence — [TUKE](https://www.tuke.sk), Košice &nbsp;·&nbsp; Software Development — [IT-Step Academy](https://itstep.org)
+Artificial Intelligence, 2nd year — [TUKE](https://www.tuke.sk), Košice &nbsp;·&nbsp; Software Development, graduated with honours — [IT-Step Academy](https://itstep.org)
 
 </td>
   </tr>
